@@ -1,0 +1,136 @@
+.header {
+    background-color: antiquewhite;
+    display: grid;
+    justify-items: center;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+
+/* titulo con nombre */
+.contenedor1 {
+    display: flex;
+    gap: 30%;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    justify-items: center
+}
+
+a {
+    color: rgb(168, 35, 35);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.contenedor1 h1 {
+    color: rgb(168, 35, 35);
+}
+
+body {
+    margin: 0;
+}
+
+.contenedor1 img {
+    border-radius: 120%;
+    border: rgb(182, 178, 178)solid 2px;
+}
+
+
+
+/* contenedor de educacion */
+.contenedor2 {
+    display: grid;
+    margin-left: 130px;
+    margin-top: 10px;
+    justify-content: left;
+    padding-bottom: 10px;
+}
+
+hr {
+    width: 80%;
+    border-top: 1px solid rgb(65, 60, 60);
+}
+
+.contenedor3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    font-family: sans-serif;
+}
+
+.grupos {
+    
+    padding: 20px;
+    font-family: sans-serif;
+    
+}
+
+.canciones {
+    position: relative;
+    top: 20px;
+    left: -103px;
+    font-family: sans-serif;
+    
+}
+.contenedor5{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 4%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.contenedor5 h2{
+    text-align: center;
+}
+.contenedor6{
+    display: grid;
+     background-color:antiquewhite;
+    justify-content: center;
+    padding-bottom: 7%;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    border-left: 3px solid #B4B4B4;
+    border-right:3px solid #B4B4B4 ;
+}
+
+.contenedor6 h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+}
+.contenedor6 video{
+    border-radius: 20px;
+    box-shadow: 3px 5px 3px#3E4042;
+    border: 3px solid #B4B4B4;
+}
+.social-link{
+    
+    
+    display: flex;
+    box-sizing: content-box;
+    border-style: double;
+    border-color: rgb(78, 48, 48);
+    border-width: 1px;
+    border-radius: 3px;
+    gap: 30px;
+    justify-content: center;
+    padding: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
