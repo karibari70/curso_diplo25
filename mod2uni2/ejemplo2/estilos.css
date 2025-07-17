@@ -1,0 +1,32 @@
+.contenedor {
+    width: 600px;
+    height: 660px;
+    border: 2px solid #000;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 20px auto;
+}
+
+.cuadro {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: red;
+}
