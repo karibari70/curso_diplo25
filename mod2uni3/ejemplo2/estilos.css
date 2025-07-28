@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.encabezado {
+  background-color: #8EAE96;
+
+  padding: 2px;
+}
+
+.encabezado h1 {
+
+  font-size: 2.5rem;
+  color: #0B0000;
+}
+
+.navegacion {
+  background-color: #FFCB5E;
+  padding: 10px;
+  border-bottom: 1px solid rgb(31, 30, 30);
+
+}
+
+.navegacion a {
+
+  display: flex;
+  margin: 10px 30px;
+  text-decoration: none;
+  color: #0a0a0a;
+
+}
+
+.navegacion a:hover {
+  font-size: larger;
+  color: darkred;
+}
+
+.media {
+  background-color: #F2F2C0;
+  padding: 20px;
+  border-bottom: 1px solid rgb(31, 30, 30);
+}
+
+.media h2 {
+  margin-top: 0;
+  color: #0F0A07;
+}
+
+
+.contenido-adicional {
+  background-color: #CDC59E;
+  padding: 20px;
+  
+}
+
+.contenido-adicional h2 {
+  margin-top: 0;
+  color: #0F0A07;
+}
+
+p {
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+
+
+  .encabezado,
+  .navegacion,
+  .media,
+  .contenido-adicional {
+    padding: 10px;
+  }
+
+  .encabezado h1 {
+    font-size: 2rem;
+    text-align: center;
+
+  }
+
+  .navegacion {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .media h2,
+  .contenido-adicional h2 {
+    text-align: center;
+  }
+
+
+  .media p {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+  }
+
+  .contenido-adicional p {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+  }
+}
