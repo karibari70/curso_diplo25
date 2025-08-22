@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+
+    background: #f1efef url(../images/white_texture.jpg) repeat top left;
+}
+
+.cabañas_montaña {
+    position: relative;
+    width: 100%;
+    /* max-width: 800px; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.cabañas_montaña img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* color: white; */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.mask h2,
+.mask h3,
+.mask p {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    color: #FDCF8B;
+
+}
+
+.mask h2 {
+    font-family: "Aclonica", sans-serif;
+}
+
+.mask p {
+    font-family: "Aclonica", sans-serif;
+}
+
+.cabañas_montaña:hover .mask {
+    opacity: 1;
+}
+
+.cabañas_montaña:hover .mask h2,
+.cabañas_montaña:hover .mask h3,
+.cabañas_montaña:hover .mask p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .mask {
+        padding: 5px;
+    }
+
+    .mask h2 {
+        font-size: 1.2rem;
+    }
+.mask h3{
+    font-size: 80%;
+}
+    .mask p {
+        font-size: 1rem;
+    }
+}
+
+/* contenedor2_cabañas */
+.contenedor3_cabañas,
+.contenedor2_cabañas{
+    padding: 10%;
+    /* background-image: url(/Imagenes/white-crinkled-paper-texture-background.jpg); */
+}
+@media (min-width: 800px){
+.contenedor2_cabañas {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    gap: 5%
+}
+
+#carouselExampleFade .carousel-item img {
+    width: 600px !important;
+    border-radius: 10px;
+}
+
+.contenedor3_cabañas {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    gap: 5%
+}
+
+#carouselExample .carousel-item img{
+ width:600px !important;
+ border-radius: 10px;
+}
+}
